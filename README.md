@@ -6,7 +6,7 @@ Afin d'affecter le programme à un streamer en particulier, changer le champs su
 
 ```python
 # Pseudo du streamer :
-USERNAME = 'b4tiste_sw'
+USERNAME = 'TWITCH_USERNAME'
 ```
 
 De base, le programme s'actualise toutes les 2 minutes, vous pouvez modifier ce temps en changeant le code ci dessous dans le fichier `main.py`:
