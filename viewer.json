@@ -1,1 +1,13 @@
-{"_links":{},"chatter_count":12,"chatters":{"broadcaster":["b4tiste_sw"],"vips":[],"moderators":["jerem__14","wizebot"],"staff":[],"admins":[],"global_mods":[],"viewers":["abbottcostello","bingcortana","commanderroot","ftopayr","gowithhim","icewizerds","keynoting","lurxx","violets_tv"]}}
+{
+    "_links": {},
+    "chatter_count": 0,
+    "chatters": {
+        "broadcaster": [],
+        "vips": [],
+        "moderators": [],
+        "staff": [],
+        "admins": [],
+        "global_mods": [],
+        "viewers": []
+    }
+}

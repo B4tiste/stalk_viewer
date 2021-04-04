@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Oct 19 10:28:17 2020
-
-@author: batiste w./Ludo
+@author: batiste 
 """
 
 from selenium import webdriver
