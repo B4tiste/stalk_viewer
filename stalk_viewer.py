@@ -14,9 +14,9 @@ import json
 def clear(): return os.system('cls')
 
 
-def stalk():
+def stalk(username):
     clear()
-    url = 'https://tmi.twitch.tv/group/user/b4tiste_sw/chatters'
+    url = 'https://tmi.twitch.tv/group/user/' + username + '/chatters'
 
     options = webdriver.ChromeOptions()
     options.add_argument("-headless")
@@ -50,7 +50,7 @@ def stalk():
 
     # data est un dictionnaire, on l'utilise comme un tableau :
 
-    print("\n")
+    print("\tListe des personnes présentes sur le stream de " + username + " :\n")
     print("\tMods (" + str(len(data['chatters']['moderators'])) + ") : ")
     for i in range(len(data['chatters']['moderators'])):
         print(data['chatters']['moderators'][i])
