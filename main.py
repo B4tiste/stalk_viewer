@@ -2,7 +2,7 @@ import stalk_viewer
 import time
 
 # Pseudo du streamer :
-USERNAME = 'b4tiste_bh'
+USERNAME = 'USERNAME'
 
 # Période d'actualisation :
 TEMPO = 60
